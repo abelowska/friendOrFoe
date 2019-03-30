@@ -12,7 +12,7 @@ class DataGenerator:
             horizontal_flip=True)
 
         training_set = train_data_gen.flow_from_directory(
-            'data/train',
+            '../../data/train',
             target_size=(64, 64),
             batch_size=32,
             class_mode='binary')
@@ -25,7 +25,7 @@ class DataGenerator:
         test_data_gen = ImageDataGenerator(rescale=1. / 255)
 
         test_set = test_data_gen.flow_from_directory(
-            'data/test',
+            '../../data/test',
             target_size=(64, 64),
             batch_size=32,
             class_mode='binary')

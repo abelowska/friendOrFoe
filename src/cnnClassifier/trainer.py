@@ -12,9 +12,9 @@ class CNNTrainer:
 
         classifier.fit_generator(
             self.training_set,
-            steps_per_epoch=1000,
-            epochs=10,
+            steps_per_epoch=2000,
+            epochs=3,
             validation_data=self.test_set,
-            validation_steps=100)
+            validation_steps=200)
 
         return classifier

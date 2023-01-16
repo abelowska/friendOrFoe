@@ -1,4 +1,4 @@
-# FriendOrFoe
+# friendOrFoe
 Basic dog or cat image recognition using convolution neural networks followed
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html.
 
